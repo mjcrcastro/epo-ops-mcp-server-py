@@ -331,4 +331,4 @@ def get_image(
 
 if __name__ == "__main__":
     # Run the server
-    mcp.run()
+    mcp.run(transport="streamable-http")
